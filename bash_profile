@@ -5,8 +5,14 @@ export PATH=$HOME/local/bin:${PATH}
 export LD_LIBRARY_PATH=$HOME/local/lib:${LD_LIBRARY_PATH}
 
 
-. ~/.git-completion.bash
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
+# source a file if it exists
+loadfile() {
+    if [ -f $1 ]; then
+        . $1
+    fi
 fi
+
+
+loadfile . ~/.git-completion.bash
+loadfile  ~/.bash_aliases
 

@@ -1,3 +1,9 @@
+# completion script taken from
+#   https://github.com/git/git/tree/master/contrib/completion
+# 
+# Hopefully at some point it can be kept in sync automatically
+#
+
 # bash/zsh completion support for core Git.
 #
 # Copyright (C) 2006,2007 Shawn O. Pearce <spearce@spearce.org>

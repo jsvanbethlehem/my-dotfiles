@@ -10,9 +10,9 @@ loadfile() {
     if [ -f $1 ]; then
         . $1
     fi
-fi
+}
 
 
-loadfile . ~/.git-completion.bash
-loadfile  ~/.bash_aliases
+loadfile ~/.git-completion.bash
+loadfile ~/.bash_aliases
 

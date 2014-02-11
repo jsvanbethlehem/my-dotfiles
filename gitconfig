@@ -1,9 +1,7 @@
 [user]
 	name = Jakob van Bethlehem
 	email = jsvanbethlehem@gmail.com
-
 [alias]
 	graph = log --graph --decorate --pretty=oneline
-
 [push]
 	default = simple

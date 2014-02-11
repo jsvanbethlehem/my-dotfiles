@@ -6,4 +6,4 @@
 [push]
 	default = simple
 [credential]
-	helper = cache --timeout=3600
+	helper = winstore --timeout=3600
